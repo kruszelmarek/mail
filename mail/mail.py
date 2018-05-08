@@ -1,7 +1,7 @@
 import argparse, smtplib, sys
 
 parser = argparse.ArgumentParser()
-parser.add_argument("args", nargs='*', help="reciever")
+parser.add_argument("args", nargs='*', help="args")
 
 args = parser.parse_args()
 
